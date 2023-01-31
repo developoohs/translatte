@@ -25,10 +25,11 @@ class MostUsed():
 
 
 
-de = MostUsed()
+"""de = MostUsed()
 
 de.most_commonly_used(2,{"en":"english"})
 
 de.most_commonly_used(1,{"tr":"turkish"})
 de.most_commonly_used(3,{"kr":"Korean"})
 de.most_commonly_used(1,{"tr":"turkish"})
+"""

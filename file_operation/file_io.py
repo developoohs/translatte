@@ -1,4 +1,3 @@
-
 import json
 import os
 
@@ -25,7 +24,7 @@ class JSONHandler:
             json.dump(data, f)
             f.close()
 
-file_name = "most_used_language.json"
+"""file_name = "most_used_language.json"
 
 JSONHandler(file_name).read()
 
@@ -33,4 +32,4 @@ data = {'name': 'asdasdasd', 'age': 30}
 
 JSONHandler(file_name).write(data)
 
-print(JSONHandler(file_name).read())
+print(JSONHandler(file_name).read())"""

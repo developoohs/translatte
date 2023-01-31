@@ -1,6 +1,7 @@
 from prettytable import PrettyTable
 
-class MyTable:
+
+class CLITable:
     def __init__(self,table_column_name:list):
         self.table = PrettyTable()
         self.table.field_names = table_column_name
